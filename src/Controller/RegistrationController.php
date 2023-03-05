@@ -39,6 +39,7 @@ class RegistrationController extends AbstractController
             // Save
             $em = $this->getDoctrine()->getManager();
             $em->persist($user);
+
             $em->flush();
 
             return $this->redirectToRoute('app_login');
