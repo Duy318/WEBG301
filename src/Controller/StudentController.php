@@ -56,6 +56,7 @@ class StudentController extends AbstractController
 
     }
 
+
     /**
      * @Route("student/edit/{id}", name="student_edit", methods={"GET", "POST"})
      */
